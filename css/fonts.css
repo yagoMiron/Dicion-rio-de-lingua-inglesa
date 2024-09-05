@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/Reddit_Mono/static/RedditMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(../fonts/Reddit_Mono/static/RedditMono-Bold.ttf);
+}

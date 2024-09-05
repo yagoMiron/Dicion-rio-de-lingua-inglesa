@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+#container {
+  padding: 50px 0px;
+}
+
+#form-area {
+  width: 600px;
+  margin: 0 auto 30px auto;
+  padding: 20px;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #fff;
+  border-radius: 15px;
+}
+
+#form-area form {
+  text-align: center;
+}
+
+#query {
+  width: 400px;
+  height: 34px;
+  font-family: "regular";
+  text-align: center;
+  font-size: 100%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+#query:focus {
+  outline: 2px solid #c5eff7;
+}
+
+#form-area input[type="submit"] {
+  padding: 10px 40px;
+  border: none;
+  font-family: "bold";
+  font-size: 100%;
+  border-radius: 10px;
+  background-color: rgb(70, 0, 70);
+  color: white;
+  cursor: pointer;
+}
+
+#not-found-message {
+  text-align: center;
+  font-family: "bold";
+  color: #2d55ff;
+  display: none;
+}
+
+#words-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.word-card {
+  width: 70%;
+  margin: 20px;
+  padding: 10px 30px;
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.2);
+  font-family: "regular";
+}
+.word-card a {
+  text-decoration: none;
+}
+
+.word-card img {
+  border-radius: 15px;
+  cursor: pointer;
+  width: 100%;
+}
+.word-card a h1 {
+  font-family: "bold";
+  color: black;
+  font-size: 32px;
+  margin: 0;
+}
+.word-card a p {
+  text-decoration: none;
+  color: purple;
+  margin: 15px;
+}
+#loading {
+  width: 150px;
+}
